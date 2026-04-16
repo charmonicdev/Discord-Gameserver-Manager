@@ -20,15 +20,6 @@ Includes a .exe for anyone who does not want to buid their own. Located in /Depl
 - Python 3.8+
 - Discord Bot Token (Get one from Discord Developer Portal)
 
-### Installation
-
-```bash
-git clone https://github.com/yourusername/discord-game-server-bot.git
-cd discord-game-server-bot
-pip install -r requirements.txt
-python main.py
-```
-
 ### First Time Setup
 
 1. Enter your Discord bot token and click "Connect"
@@ -65,7 +56,7 @@ python main.py
 All settings are auto-saved. Key files created:
 - bot_config.json - Encrypted bot settings
 - message_ids.json - Stored message IDs
-- system_metrics_cache.dat - Obfuscated encryption keys
+- system_metrics_cache.dat - Encryption keys
 
 ## Building Executable
 
@@ -84,22 +75,14 @@ psutil>=5.9.0
 cryptography>=41.0.0
 ```
 
-## Contributing
-
-Issues and pull requests welcome.
-
 ## License
 
 MIT
 
 Made for Core Keeper and other game servers
-```
-
-```
 A GUI application that combines a Discord bot with game server management. Monitor server status, send automatic updates to Discord, control multiple channels, and manage your game server - all from one interface. Supports Core Keeper and other game servers.
-```
 
 tags:
 ```
-discord-bot, game-server, server-monitor, core-keeper, tkinter, discord-py, server-management, gui-application
+discord-bot, game-server, server-monitor, core-keeper, discord-py, server-management, gui-application
 ```
