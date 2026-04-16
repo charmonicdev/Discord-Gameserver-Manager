@@ -1,0 +1,6 @@
+# hook-discord.py
+from PyInstaller.utils.hooks import collect_data_files, collect_submodules, copy_metadata
+
+datas = collect_data_files('discord')
+datas += copy_metadata('discord.py')
+hiddenimports = collect_submodules('discord')
